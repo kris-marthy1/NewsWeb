@@ -1,0 +1,118 @@
+.col{
+    /*!!! ^css for each column ==============*/
+    		margin: 20px auto;
+    	}
+
+
+    	.box{
+        /*!!! ^css for whole blue box ====================*/
+    		border-radius: 40px;
+    		border: 5px solid #D4f1f4;
+            padding: 20px;
+            background-color: #D4f1f4;
+    	   }
+    	.reply{
+        /*!!! ^css for adding a reply white box ============================*/
+    		margin:10px auto; 
+    		border: 2px solid #d0c9c0; 
+    		border-radius: 25px;
+    		width: 90%;
+    		padding: 20px;
+            background-color: #d0c9c0;
+    	   }
+        .rForm{
+       /* !!! ^css for displaying a reply box box ============================*/
+
+           /* border: 1px solid black;*/
+           /* padding: 10px;*/
+            border-radius: 25px;
+            width: 90%;
+            margin:10px auto;
+            background-color: white;
+           } 
+                .addreply{
+           /*   !!! ^css for add reply button =================*/
+                    border: none;
+                    width:20%;
+                    margin:auto;
+                    border-radius: 25px;
+                    float: right;
+                    font-size: 20px;
+                    padding: 17px;
+                    background-color: #a1c0cd;
+                    margin-right: 15px;
+                    margin-top: 20px;
+                } 
+                    .addreply:hover{
+               /*   !!! ^css for add reply button =================*/
+                        background-color: #627484;
+                        opacity: .7;
+                        color: white;
+
+                        }
+/*                !!! reply text area edits ==========================*/                
+                textarea{
+                    width: 70%;
+                    border: none;
+                    font-size: 25px;
+                    border-radius: 25px;
+                    padding: 5px;
+                }
+                textarea:focus{
+                    outline: none;
+                }
+/*                !!! reply text area edits ==========================*/                
+
+
+/* !!! TEXT EDITS headline, news, reporter, date ================================*/
+.headline{
+    font-weight: bold;
+    font-size: 35px;
+}
+.news{
+    text-indent: 100px;
+    margin: 0px 55px;
+}
+.text{
+    font-size: 1.3rem;
+text-align: right;
+    margin: 0px 65px;
+}
+.reporter  {
+     margin-left: 50px;
+
+}
+
+/* !!! NAVBAR BOOTSTRAP CSS ====================================*/
+.text-large{
+    font-size: 2rem;
+}
+.navbar a{
+    font-size: 2rem;
+}
+.navbar a:hover{
+    color: aqua;
+}
+.navbar form button{
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid  gray;
+}
+
+
+
+
+/*   !!! closing button css =========================*/
+.close{
+    background-color: transparent;
+    border: none;
+    font-size: 4rem;
+    cursor: pointer;
+    float: right;
+    line-height: 40px;
+}
+.close:hover{
+    color: red;
+}
+        

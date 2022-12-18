@@ -1,0 +1,97 @@
+/* !!! NAVBAR BOOTSTRAP CSS ====================================*/
+.text-large{
+    font-size: 2rem;
+}
+.navbar a{
+    font-size: 2rem;
+}
+.navbar a:hover{
+    color: aqua;
+}
+.navbar form button{
+    padding: 10px;
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid  gray;
+}
+
+/* !!! NAVBAR BOOTSTRAP CSS ====================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box{
+	margin-top: 3%;
+	background-color: #f4f4f4;
+	width: 100%;
+	border: 0px;
+	border-radius: 30px;
+	padding: 30px;
+}
+
+table{
+	width: 100%;
+}
+th{
+	font-size: 1.2rem;
+}
+
+
+table, thead, tbody, td, th{
+		font-family: 'Quicksand', sans-serif;
+		padding: 15px;
+}
+	
+	.id{
+		padding: 15px;
+	}
+
+
+	.headline{
+		width: 300px;
+		margin-left: 10px;
+	}
+
+
+	.news{
+		text-align: left;
+		width: 400px;
+		padding: 10px;
+	}
+	.action{
+		width: 118px;
+	}
+	.deletebtn{
+		background: #efead8;
+		border: 0px;
+		border-radius: 30px;
+		height: 40px;
+		width: 100px;
+	}
+
+	.deletebtn:hover{
+		opacity: .5;
+	}
+
+	.updatebtn{
+		color: white;
+		background: #122c44;
+		border: 0px;
+		border-radius: 30px;
+		height: 40px;
+		width: 100px;
+	}
+
+
+	.updatebtn:hover{
+		opacity: .5;
+	}
